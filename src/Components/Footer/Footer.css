@@ -1,0 +1,20 @@
+#fooder{
+    background: rgb(65,65,65);
+}
+#fooder h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(65,65,65);
+}
+.link-container{
+    display: flex;
+    justify-content: center;
+    background: rgb(65,65,65);
+}
+.link{
+    margin-left: 2em;
+    padding-bottom: 2em;
+}
