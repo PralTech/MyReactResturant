@@ -8,7 +8,7 @@ import t3 from '../img/t3.jpg'
 const Testimonial = () => {
   return (
     <div>
-        <section id="testimonials">
+     <section id="testimonials">
     <h2 className="testmonial-title"> What Our Customer Says</h2>
     <div className="testimonial-container container">
         <div className="testmonial-box">

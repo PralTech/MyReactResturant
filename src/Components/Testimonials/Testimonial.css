@@ -48,3 +48,18 @@
 .customer-name{
     padding: 1rem;
 }
+@media only screen and (max-width: 500px) {
+   .testimonial{
+    display: flex;
+    flex-direction: column;
+   }
+   .testimonial-container{
+    display: flex;
+    flex-direction: column;
+   }
+   .testmonial-title{
+    font-size: 2rem;
+   }
+   
+   
+    }

@@ -5,7 +5,7 @@ import  about from '../img/about.jpg'
 const About = () => {
   return (
     <div>
-           <section id="about">
+        <section id="about">
         <div className="about-wrapper container">
             <div className="about-text ">
                 <p className="small">About</p>

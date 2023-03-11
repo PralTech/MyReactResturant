@@ -139,3 +139,9 @@
         transform: rotate(-45deg);
     }
 }
+ /* 500px */
+@media screen and (max-width:500px) {
+    .navbar-container h1{
+        display: none;
+    }
+}

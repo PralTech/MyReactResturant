@@ -49,4 +49,9 @@
     object-fit: cover;
     object-position: right;  
 }
-
+@media only screen and (max-width: 500px) {
+    .about-img img{
+       transform: scale(0.8);
+    }
+    
+    }

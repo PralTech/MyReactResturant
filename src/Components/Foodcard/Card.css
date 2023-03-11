@@ -52,3 +52,16 @@
     color: #fff;
     background-color: #16a083;
   }
+  @media only screen and (max-width: 500px) {
+    .food-menu-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+    .food-image{
+      transform: scale(0.7);
+    }
+   
+   
+    }

@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div>
-        <nav className="navbar">
+       <nav className="navbar">
         <div className="navbar-container container">
             <input type="checkbox" />
             <div className="humburger-lines">
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li><a href="#testimonials">Testimonial</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <h1 className="logo">Pr@lTech</h1>
+            <h1 className="logo">RESTAURANT</h1>
         </div>
     </nav>
     </div>

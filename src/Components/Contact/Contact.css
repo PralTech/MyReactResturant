@@ -50,3 +50,17 @@
 .form-container a{
     font-size: 1.2rem;
 }
+@media only screen and (max-width: 500px) {
+    #contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-image{
+        display: none;
+    }
+    textarea{
+        max-height: 4rem;
+    }
+   
+   
+    }

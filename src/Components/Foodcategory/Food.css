@@ -68,3 +68,16 @@
     opacity: 1;
     top: 40%;
 }
+@media screen and (max-width:500px){
+    #food{
+        display: flex;
+        flex-direction: column;
+    }
+    .food-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container img{
+        transform: scale(0.8);
+    }
+}

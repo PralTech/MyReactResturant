@@ -13,14 +13,14 @@ const Foodmenu = () => {
     
       
   return (
-    <div>
-        <div id="food-menu">
-        <h2 className="food-menu-heading">
-            Food Menu 
-        </h2>
-         <div className="food-menu-container container">
+      <div>
+          <div id="food-menu">
+              <h2 className="food-menu-heading">
+                  Food Menu
+              </h2>
+              <div className="food-menu-container container">
 
-         {/* cards */}
+                  {/* cards */}
                   <Card
                       emoji={fm1}
                       heading={"Mix-Veg food"}
@@ -33,33 +33,34 @@ const Foodmenu = () => {
                       heading={"Snacks"}
                       detail={"This is specialy made for you. please provide and order by clicking ordernow"}
                       price={"Price: 25 ₹"}
-                  />  <Card
+                  />
+                  <Card
                       emoji={fm3}
                       heading={"Vegetable"}
                       detail={"This is specialy made for you. please provide and order by clicking ordernow"}
                       price={"Price: 25 ₹"}
-                  />  <Card
+                  />
+                  <Card
                       emoji={fm4}
                       heading={"Vegetable Items"}
                       detail={"This is specialy made for you. please provide and order by clicking ordernow"}
                       price={"Price: 25 ₹"}
-                  />  <Card
+                  />
+                  <Card
                       emoji={fm5}
                       heading={"Vegetable Items "}
                       detail={"This is specialy made for you. please provide and order by clicking ordernow"}
                       price={"Price: 25 ₹"}
-                  />  <Card
+                  />
+                  <Card
                       emoji={fm6}
                       heading={"Vegetable Items"}
                       detail={"This is specialy made for you. please provide and order by clicking ordernow"}
                       price={"Price: 25 ₹"}
                   />
-
-
-
-    </div> 
-    </div>
-    </div>
+              </div>
+          </div>
+      </div>
   )
   }
 
